@@ -5,15 +5,15 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/css/reset.css">
-   <link rel="stylesheet" href="/css/style.css?<?= time() ?>">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css?<?= time() ?>">
    <title>Document</title>
 </head>
 
 <body>
    <header class="header">
       <a href="/" class="header-logo">
-         <img src="/img/logo.svg" alt="">
+         <img src="img/logo.svg" alt="">
          <span>BeerInfo</span>
       </a>
       <div class="header-title">Личный кабинет</div>
@@ -37,7 +37,7 @@
          <div class="main lk active" data-id="lk">
             <div class="main-header">
                <div class="main-header-info">
-                  <img src="/img/temp.svg" class="main-header-info__img" alt="">
+                  <img src="img/temp.svg" class="main-header-info__img" alt="">
                   <div class="main-header-info-username" id="username">
                      <div class="main-subtitle">Username</div>
                      <div class="main-text">jim.marquardt</div>
@@ -245,7 +245,7 @@
             <div class="main-style pl20" id="style">Light Hybrid Beer</div>
             <div class="main-wrapper ">
                <div class="main-beer-img">
-                  <img src="/img/beer.jpg" alt="">
+                  <img src="img/beer.jpg" alt="">
                </div>
                <div class="main-beer-list load-wrapper">
 
@@ -317,8 +317,7 @@
 
 
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
-   <script src="/js/script.js?<?= time() ?>"></script>
+   <script src="js/script.js?<?= time() ?>"></script>
 </body>
 
 </html>
