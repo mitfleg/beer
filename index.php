@@ -18,7 +18,7 @@
       </a>
       <div class="header-title">Личный кабинет</div>
       <div class="header-menu">
-         <span class="header-menu__name">MITFLEG</span>
+         <span class="header-menu__name"></span>
          <div class="header-menu-list">
             <div class="header-menu-list__item change">Сменить пользователя</div>
             <div class="header-menu-list__item pass">Показать пароль</div>
